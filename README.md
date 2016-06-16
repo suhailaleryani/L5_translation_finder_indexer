@@ -1,0 +1,2 @@
+# L5_translation_finder_indexer
+This is a command for artisan , the command called " translate" this will look into the views folder and find all the text or words inside the underscore __example text__ and index it in the lang/en/$viewfilename or lang/en/$viewfoldername/$viewfilename this depends on how you have your views file tree , and in the view file it will replace the " __example text__  " with @trans(' pathe/to/translation/file.example_text ') 
